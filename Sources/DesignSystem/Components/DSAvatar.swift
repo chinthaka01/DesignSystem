@@ -11,6 +11,7 @@ import SwiftUI
 public struct DSAvatar: View {
     let name: String
     let size: CGFloat
+    let font = DSTextStyle.headline
 
     public init(name: String, size: CGFloat = 44) {
         self.name = name
@@ -23,7 +24,7 @@ public struct DSAvatar: View {
             .frame(width: size, height: size)
             .overlay(
                 Text(String(name.prefix(1)))
-                    .font(DSTextStyle.headline)
+                    .font(font)
                     .foregroundColor(DSColor.primary)
             )
     }

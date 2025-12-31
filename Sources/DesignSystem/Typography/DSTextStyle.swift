@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 public enum DSTextStyle {
+    public static let largeAvatar = Font.title.bold()
     public static let title = Font.title2.bold()
     public static let headline = Font.headline
     public static let body = Font.body

@@ -30,7 +30,7 @@ public struct DSSection<Content: View>: View {
         .padding(DSSpacing.md)
         .background(
             RoundedRectangle(cornerRadius: 16)
-                .fill(DSColor.surface)
+                .fill(DSColor.card)
         )
         .padding(.horizontal, DSSpacing.md)
     }
