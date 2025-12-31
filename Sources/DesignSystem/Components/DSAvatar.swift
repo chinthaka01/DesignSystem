@@ -11,11 +11,12 @@ import SwiftUI
 public struct DSAvatar: View {
     let name: String
     let size: CGFloat
-    let font = DSTextStyle.headline
+    let font: Font
 
-    public init(name: String, size: CGFloat = 44) {
+    public init(name: String, size: CGFloat = 44, font: Font = DSTextStyle.headline) {
         self.name = name
         self.size = size
+        self.font = font
     }
 
     public var body: some View {
