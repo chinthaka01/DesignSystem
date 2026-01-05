@@ -15,4 +15,6 @@ public enum DSColor {
     public static let card = Color(.systemGray5)
     public static let primary = Color.accentColor
     public static let secondaryText = Color.secondary
+    public static let headerText = Color.white
+    public static let warningText = Color.red
 }
