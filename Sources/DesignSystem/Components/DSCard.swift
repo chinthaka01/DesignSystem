@@ -8,7 +8,13 @@
 import Foundation
 import SwiftUI
 
+/// Reusable card container used to group related content.
+///
+/// Applies consistent padding, max‑width, alignment, corner radius,
+/// and background color from the design system.
 public struct DSCard<Content: View>: View {
+    
+    /// The content rendered inside the card.
     let content: Content
 
     public init(@ViewBuilder content: () -> Content) {

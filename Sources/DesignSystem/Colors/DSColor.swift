@@ -9,6 +9,10 @@ import Foundation
 import SwiftUI
 import UIKit
 
+/// Centralized color palette for the app.
+///
+/// Use these colors instead of hard‑coding values in individual views
+/// to keep styling consistent and easy to update.
 public enum DSColor {
     public static let background = Color(.systemGroupedBackground)
     public static let surface = Color(.systemBackground)

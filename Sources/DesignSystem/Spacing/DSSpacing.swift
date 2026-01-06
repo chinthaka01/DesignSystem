@@ -7,6 +7,10 @@
 
 import Foundation
 
+/// Centralized spacing scale for the design system.
+///
+/// Uses a simple 4‑point base grid (`4, 8, 16, 24`) to keep margins
+/// and paddings consistent across components.
 public enum DSSpacing {
     public static let xs: CGFloat = 4
     public static let sm: CGFloat = 8

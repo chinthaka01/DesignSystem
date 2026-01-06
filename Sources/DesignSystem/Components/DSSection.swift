@@ -8,8 +8,16 @@
 import Foundation
 import SwiftUI
 
+/// Reusable titled section container.
+///
+/// Displays a section title using the design system headline style
+/// and wraps its content inside a padded, card‑like background.
 public struct DSSection<Content: View>: View {
+    
+    /// Text shown as the section header.
     let title: String
+    
+    /// The content rendered below the section title.
     let content: Content
 
     public init(
