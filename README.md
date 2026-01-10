@@ -110,3 +110,23 @@ Feature modules:
 - Compose UI with `DSAvatar`, `DSButton`, `DSCard`, and `DSSection` to align with the app’s visual language.
 
 This keeps each micro‑feature focused on behavior and layout, while the visual identity lives in a single, shared place.
+
+***
+
+## The Other Related Repositories
+
+### Shell App:
+Shell - https://github.com/chinthaka01/Wefriendz
+
+### Shared contracts:
+PlatformKit - https://github.com/chinthaka01/PlatformKit
+
+### Feature Modules:
+Feed Feature - https://github.com/chinthaka01/FeedFeature
+Friends Feature - https://github.com/chinthaka01/FriendsFeature
+Profile Feature - https://github.com/chinthaka01/ProfileFeature
+
+### Isolate Feature Testing Apps:
+Feed Feature Testing App - https://github.com/chinthaka01/FeedFeatureApp
+Friends Feature Testing App - https://github.com/chinthaka01/FriendsFeatureApp
+Profile Feature Testing App - https://github.com/chinthaka01/ProfileFeatureApp
